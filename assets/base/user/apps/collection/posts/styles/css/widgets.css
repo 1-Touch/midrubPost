@@ -1,0 +1,160 @@
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+/*******************************
+MIDRUB ELEMENTS STYLES
+********************************/
+/*******************************
+POSTS WIDGETS APP STYLES
+********************************/
+section.dashboard-page .graphs .col-xl-12 {
+  margin-bottom: 15px; }
+  section.dashboard-page .graphs .col-xl-12 .col-xl-12 {
+    height: 430px;
+    padding: 15px; }
+    section.dashboard-page .graphs .col-xl-12 .col-xl-12 .canvas-header {
+      background-color: transparent; }
+      section.dashboard-page .graphs .col-xl-12 .col-xl-12 .canvas-header .canvas-title {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        color: #343a40;
+        font-weight: 400; }
+      section.dashboard-page .graphs .col-xl-12 .col-xl-12 .canvas-header .canvas-description {
+        color: #c0cddc;
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 25px; }
+    section.dashboard-page .graphs .col-xl-12 .col-xl-12 canvas {
+      width: 100%;
+      height: 320px !important; }
+    section.dashboard-page .graphs .col-xl-12 .col-xl-12 .chartjs-size-monitor {
+      height: 400px; }
+section.dashboard-page .graphs.col-xl-12 .col-xl-12 .col-xl-12 {
+  height: 600px; }
+  section.dashboard-page .graphs.col-xl-12 .col-xl-12 .col-xl-12 canvas {
+    height: 500px !important; }
+  section.dashboard-page .graphs.col-xl-12 .col-xl-12 .col-xl-12 .chartjs-size-monitor {
+    height: 580px; }
+section.dashboard-page .stats-single {
+  margin-bottom: 30px; }
+  section.dashboard-page .stats-single > .col-xl-12 {
+    min-height: 450px;
+    padding: 15px; }
+    section.dashboard-page .stats-single > .col-xl-12 p.no-results-found {
+      padding: 15px 0;
+      line-height: 22px;
+      font-size: 16px;
+      color: #343a40;
+      margin-bottom: 0; }
+    section.dashboard-page .stats-single > .col-xl-12 h3 {
+      font-size: 18px;
+      padding-bottom: 15px;
+      padding-top: 5px;
+      border-bottom: 1px solid #f0f0f0;
+      margin-bottom: 0; }
+      section.dashboard-page .stats-single > .col-xl-12 h3 .dropdown-toggle {
+        color: #c0cddc; }
+        section.dashboard-page .stats-single > .col-xl-12 h3 .dropdown-toggle:hover {
+          text-decoration: none;
+          border: 0; }
+        section.dashboard-page .stats-single > .col-xl-12 h3 .dropdown-toggle::after {
+          display: none; }
+      section.dashboard-page .stats-single > .col-xl-12 h3 .dropdown-menu {
+        border-radius: 0;
+        right: 0px;
+        left: auto !important;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        padding: 0; }
+        section.dashboard-page .stats-single > .col-xl-12 h3 .dropdown-menu a {
+          line-height: 25px;
+          padding: 5px 15px; }
+          section.dashboard-page .stats-single > .col-xl-12 h3 .dropdown-menu a:hover {
+            border: 0; }
+    section.dashboard-page .stats-single > .col-xl-12 .team-list .row {
+      border-bottom: 1px solid #ebedf2;
+      margin: 0; }
+      section.dashboard-page .stats-single > .col-xl-12 .team-list .row:last-child {
+        border-bottom: 0; }
+      section.dashboard-page .stats-single > .col-xl-12 .team-list .row p {
+        line-height: 75px;
+        margin-bottom: 0; }
+      section.dashboard-page .stats-single > .col-xl-12 .team-list .row img {
+        max-width: 50px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-right: 15px;
+        float: left; }
+      section.dashboard-page .stats-single > .col-xl-12 .team-list .row .btn-outline-info {
+        margin-top: 18px;
+        border: 1px solid #ebedf2;
+        color: #343a40; }
+        section.dashboard-page .stats-single > .col-xl-12 .team-list .row .btn-outline-info:hover {
+          background-color: #FFFFFF;
+          border: 1px solid #212529;
+          color: #212529; }
+    section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul,
+    section.dashboard-page .stats-single > .col-xl-12 .published-list ul {
+      border-left: 3px solid #e3ecf9;
+      margin: 15px 15px 0;
+      padding: 0; }
+      section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li,
+      section.dashboard-page .stats-single > .col-xl-12 .published-list ul li {
+        margin: 0;
+        padding: 15px 0 5px 15px;
+        list-style: none; }
+        section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li h4,
+        section.dashboard-page .stats-single > .col-xl-12 .published-list ul li h4 {
+          font-size: 16px;
+          padding: 0;
+          margin: 0;
+          color: #343a40; }
+        section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li p,
+        section.dashboard-page .stats-single > .col-xl-12 .published-list ul li p {
+          color: #c0cddc;
+          font-size: 12px;
+          line-height: 15px; }
+        section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li .btn-outline-info,
+        section.dashboard-page .stats-single > .col-xl-12 .published-list ul li .btn-outline-info {
+          margin-top: -5px;
+          border: 1px solid #ebedf2;
+          color: #343a40;
+          float: right; }
+          section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li .btn-outline-info:hover,
+          section.dashboard-page .stats-single > .col-xl-12 .published-list ul li .btn-outline-info:hover {
+            background-color: #FFFFFF;
+            border: 1px solid #ea6759;
+            color: #212529; }
+          section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li .btn-outline-info i,
+          section.dashboard-page .stats-single > .col-xl-12 .published-list ul li .btn-outline-info i {
+            margin-right: 5px; }
+        section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li i.icon-clock,
+        section.dashboard-page .stats-single > .col-xl-12 .published-list ul li i.icon-clock {
+          margin-left: -28px;
+          line-height: 27px;
+          background-color: #FFFFFF;
+          font-size: 18px;
+          border: 3px solid #ffffff;
+          color: #01a28b;
+          position: absolute; }
+        section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li i.icon-feed,
+        section.dashboard-page .stats-single > .col-xl-12 .published-list ul li i.icon-feed {
+          margin-left: -28px;
+          line-height: 27px;
+          background-color: #FFFFFF;
+          font-size: 18px;
+          border: 3px solid #ffffff;
+          color: #f7c48c;
+          position: absolute; }
+        section.dashboard-page .stats-single > .col-xl-12 .schedule-list ul li i.fa-calendar-check,
+        section.dashboard-page .stats-single > .col-xl-12 .published-list ul li i.fa-calendar-check {
+          margin-right: 5px; }
+    section.dashboard-page .stats-single > .col-xl-12 .published-list .btn-outline-info:hover,
+    section.dashboard-page .stats-single > .col-xl-12 .team-list .btn-outline-info:hover {
+      border: 1px solid #2e5f9b !important; }
+    section.dashboard-page .stats-single > .col-xl-12 .published-list .btn-outline-info i,
+    section.dashboard-page .stats-single > .col-xl-12 .team-list .btn-outline-info i {
+      margin-right: 5px; }
+
+/*# sourceMappingURL=widgets.css.map */

@@ -1,0 +1,235 @@
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+$open-sans: 'Open Sans', sans-serif;
+$nunito-sans: 'Nunito Sans', sans-serif;
+$primary-black: #343a40;
+$primary-green: #01a28b;
+$primary-red: #ea6759;
+$primary-blue: #2e5f9b;
+$primary-yellow: #f7c48c;
+$primary-border-black: rgba(65, 106, 166, 0.1);
+
+/*******************************
+CHATBOT WIDGETS STYLES
+********************************/
+.dashboard-chatbot-widget {
+    margin-bottom: 30px;
+
+    & > .panel {
+
+        & > .panel-heading {
+            padding: 15px;
+            border-bottom: 1px solid rgba(65, 106, 166, 0.1);
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 12px;
+            font-family: $open-sans, Arial, Helvetica;
+            color: $primary-black;
+
+            i {
+                float: left;
+                margin-right: 10px;
+                margin-top: 2px;
+                font-size: 14px;
+            }
+
+        }
+
+        & > .panel-body {
+            padding: 0 !important;
+            min-height: 30px;
+
+            #replies-stats-chart,
+            #pi-chart {
+                height: 500px !important;
+                width: 100% !important;
+            }
+
+            .subscribers-list {
+                margin: 0;
+                padding: 15px;
+                min-height: 650px;
+
+                li {
+                    margin: 0;
+                    margin-bottom: 15px;
+                    padding: 15px 15px 0 35px;
+                    border: 1px solid $primary-border-black;
+                    min-height: 78px;
+                    list-style: none;
+
+                    &.no-results {
+                        margin: 0 -15px;
+                        padding: 0 15px;
+                        min-height: auto;
+                        width: calc(100% + 30px);
+                        border: 0;
+                        line-height: 45px;
+                        color: #333333;
+                        background-color: #f9fafb;
+                    }
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    &.inbox-account-details-active {
+                        box-shadow: 0 0 10px 0 rgba(136,152,170,.15);
+                        -webkit-box-shadow: 0 0 10px 0 rgba(136,152,170,.15);                                        
+
+                        .inbox-account-details {
+                            background-color: $primary-blue;
+                            border: 1px solid $primary-blue;
+                            color: #FFFFFF;
+                        }
+
+                    }
+
+                    h4 {
+                        font-size: 14px;
+                        padding: 0;
+                        margin: 0;
+                        color: $primary-black;
+
+                        i {
+                            margin-left: -28px;
+                            line-height: 27px;
+                            background-color: #FFFFFF;
+                            font-size: 18px;
+                            border: 3px solid #ffffff;
+                            position: absolute;
+
+                            &.icon-user {
+                                color: #01c0c8;
+                            }
+
+                        }
+
+                    }
+
+                    h3 {
+                        font-size: 16px;
+                        line-height: 45px;
+                        padding: 0;
+                        margin: 0;
+                        margin-left: -20px;
+
+                        img {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            float: left;
+                            margin-right: 10px;
+                        }
+
+                    }                                            
+
+                    p {
+                        color: #c0cddc;
+                        font-size: 12px;
+                        margin-bottom: 0;
+                    }
+
+                    .btn-outline-info {
+                        margin-top: 3px;
+                        border: 1px solid #ebedf2;
+                        color: $primary-black;
+                        float: right;
+
+                        &:hover {
+                            background-color: $primary-blue;
+                            border: 1px solid $primary-blue;
+                            color: #FFFFFF;
+                        }
+
+                    } 
+
+                }
+
+            }
+
+            .table {
+                margin: 0;
+                padding: 0;
+                border: 0;
+
+                thead {
+                    background-color: #f9fafb;
+
+                    tr {
+
+                        th {
+                            width: 20%;
+                            border: 0;
+                            font-weight: 400;
+                            font-size: 15px;
+                            color: #1c222d;
+
+                            &:first-child {
+                                width: 60%;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                tbody {
+                    min-height: 500px;
+
+                    tr {
+
+                        td {
+                            border-top: 1px solid rgba(65, 106, 166, 0.1);
+                            font-size: 15px;
+                            color: #7d879c;
+
+                            span {
+                                padding: 3px 10px;
+                                border-radius: 3px;
+                                font-size: 13px;
+                                color: #FFFFFF;
+
+                                &.span-text {
+                                    background-color: #fad3d1;
+                                }
+
+                                &.span-group {
+                                    background-color: #9cc2f4;
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                tfoot {
+
+                    tr {
+
+                        td {
+                            padding: 0;
+                            border-top: 1px solid rgba(65, 106, 166, 0.05);
+
+                            .pagination {
+                                float: right;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

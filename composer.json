@@ -1,0 +1,16 @@
+{
+    "require": {
+        "abraham/twitteroauth": "^0.6.4",
+        "tumblr/tumblr": "^0.2.0",
+        "dirkgroenen/Pinterest-API-PHP": "^0.2.11",
+        "jonathantorres/medium-sdk": "^0.2.0",
+        "linkedinapi/linkedin": "^1.1",
+        "google/apiclient": "^2.1",
+        "facebook/graph-sdk": "^5.7",
+        "paragonie/random_compat": "^9.99",
+        "facebook/php-ads-sdk": "^3.2",
+        "cache/filesystem-adapter": "^1.0",
+        "symfony/dependency-injection": "^4.2",
+        "facebook/php-business-sdk": "6.0.1"
+    }
+}

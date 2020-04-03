@@ -1,0 +1,383 @@
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+$open-sans: 'Open Sans', sans-serif;
+$nunito-sans: 'Nunito Sans', sans-serif;
+$primary-black: #343a40;
+$primary-green: #01a28b;
+$primary-red: #ea6759;
+$primary-blue: #2e5f9b;
+$primary-yellow: #f7c48c;
+$primary-border-black: rgba(65, 106, 166, 0.1);
+
+/*******************************
+MIDRUB ELEMENTS STYLES
+********************************/
+
+@mixin scrollbar() {
+    
+    ::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+        margin-right: -10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+	background-color: #DDDDDD;
+	border: 0;
+        margin-right: -10px;
+    }
+
+    ::-webkit-scrollbar-track {
+	-webkit-box-shadow: none;
+	background-color: #fdfdfd;
+        margin-right: -10px;
+    }
+        
+}
+
+@mixin opacity-animations($duration) {
+    -webkit-animation: loadingOpacity $duration;
+    animation: loadingOpacity $duration;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+        
+}
+
+@mixin checkbox-option() {
+    
+    .checkbox-option {
+        width: 100%;
+        text-align: right;
+
+        input[type=checkbox]{
+            display: none;
+        }
+
+        input[type=text] {
+            height: 35px;
+            line-height: 35px;
+            width: 100%;
+            padding: 0 7px;
+            border: 1px solid #c1c7cd;
+            color: #1b2733;
+            margin-top: 2px;
+        }
+
+        label{
+            cursor: pointer;
+            position: relative; 
+            width: 50px;
+            margin-right:15px;
+            margin-top: 20px;
+        }
+
+        label::before{
+            content: '';
+            background-color: #ced8dc;
+            box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            height: 14px;
+            margin-top: -6px;
+            position: absolute;
+            opacity: 0.3;
+            transition: all 0.4s ease-in-out;
+            width: 50px;
+            margin-left: -45px;
+        }
+
+        label::after {
+            background-color: #c1c7cd;
+            border-radius: 16px;
+            content: '';
+            height: 24px;
+            left: -4px;
+            margin-top: -8px;
+            position: absolute;
+            top: -4px;
+            transition: all 0.3s ease-in-out;
+            width: 24px;
+        }
+
+        input[type=checkbox]:checked + label::after {
+            left: 40px;
+            background-color: $primary-green;
+            box-shadow: none;
+        }
+
+    }
+        
+}
+
+@mixin publish-buttons() {
+    
+    .btn-success{
+        height: 36px;
+        line-height: 20px;
+        background-color: #6086bf;
+        border-color: #6086bf;
+        font-size: 14px;
+        font-family: $open-sans;
+        
+        i {
+            margin-right: 5px;
+        }
+
+        &:nth-child(2) {
+            border-left: 1px solid #42659a !important;
+            width: 40px;
+            
+            span {
+                margin-left: -5px;
+            }
+            
+        }
+
+    }
+
+    .btn-success:hover{
+        opacity: 0.8;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        border: 1px solid #e0e6e8;
+        border-radius: 0;
+        -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+        transform: translate3d(22px, -75px, 0px) !important;
+
+        li {
+            padding: 0 10px;
+            height: 35px;
+            font-size: 14px;
+
+            a {
+                color: #333333;
+                display: block;
+                height: 35px;
+                line-height: 35px;
+                width: 100%;
+
+                &:hover {
+                    text-decoration: none;
+                    border: 0;
+                }
+
+            }
+
+            &:hover {
+                background-color: #f7f7f7;
+            }
+
+        }
+
+    }
+    
+    .loadsend {
+        display: none;
+    }
+        
+}
+
+@mixin dropdown-menu() {
+    
+    ul.dropdown-menu {
+        margin: 0;
+        padding: 0;
+        border: 1px solid #e0e6e8;
+        border-radius: 0;
+        -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+
+        li {
+            padding: 0 10px;
+            height: 35px;
+            font-size: 14px;
+
+            a {
+                color: #333333;
+                display: block;
+                height: 35px;
+                line-height: 35px;
+                width: 100%;
+
+                &:hover {
+                    text-decoration: none;
+                    border: 0;
+                }
+
+            }
+
+            &:hover {
+                background-color: #f7f7f7;
+            }
+
+        }
+
+    }
+        
+}
+
+/*******************************
+DASHBOARD APP STYLES
+********************************/
+section.dashboard-page {
+    padding: 30px;
+
+    .stats {
+
+        .col-xl-6,
+        .col-xl-3 {
+            margin-bottom: 27px;
+
+            & > div {
+                min-height: 200px;
+                padding: 15px;
+
+                & > .row {
+
+                    .col-xl-3 {
+                        text-align: center;
+                        padding: 15px 0 0;
+
+                        i {
+                            font-size: 2.5vw;
+
+                            &.icon-user {
+                                color: $primary-green;
+                            }
+
+                            &.icon-people {
+                                color: #86a2d4;
+                            }
+
+                            &.icon-layers {
+                                color: $primary-blue;
+                            }  
+
+                            &.icon-drawer {
+                                color: #c9cccf;
+                            }   
+
+                            @media only screen and (max-width: 767px) {
+
+                                & {
+                                    font-size: 5vw;
+                                }
+
+                            }
+
+                        }                            
+
+                    }  
+
+                    .col-xl-9 {
+                        padding: 10px 15px 0;
+
+                        h3 {
+                            margin: 0;
+                            padding: 0;
+                            font-size: 17px;
+                            text-align: right;
+                            margin-top: 10px;
+                            font-weight: 400;                
+                            color: #343a40;
+                            font-family: $nunito-sans;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            text-align: right;
+                            color: #c0cddc;
+                            line-height: 35px;
+                            
+                            @media only screen and (max-width: 1598px) {
+
+                                & {
+                                    font-size: 12px;
+                                    line-height: 22px;
+                                }
+
+                            }
+                            
+                        }
+
+                    }
+
+                    .col-xl-12 {
+
+                        hr {
+                            border-top: 1px solid #f0f0f0;
+                            margin-top: 0;
+                        }
+
+                        .stats-bottom {
+                            margin-top: 10px;
+                            background-color: #fbfbfb;
+                            height: 60px;
+                            padding: 14px;
+                            font-size: 14px;
+                            color: #818a91;
+
+                            a {
+                                color: #1da1f2;
+                            }
+
+                        }
+
+                        .col-xl-9.col-sm-10 {
+                            padding: 0 15px;
+                            margin-bottom: 5px;
+                            
+                            @media only screen and (max-width: 1598px) {
+
+                                & {
+                                    font-size: 86%;
+                                }
+
+                            }
+                            
+                        }
+                        
+                        .col-sm-2 {
+                            padding: 0 15px;
+                            margin-bottom: 0;
+                        
+                            i {
+                                font-size: 16px;
+                            }
+                        
+                        }
+
+                        .progress {
+                            height: 5px;
+
+                            .progress-bar {
+                                height: 5px;
+
+                                &.bg-success {
+                                    background-color: #14b8c8 !important;
+                                }
+
+                                &.bg-danger {
+                                    background-color: $primary-red !important;
+                                }                                        
+
+                            }                                    
+
+                        }
+
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

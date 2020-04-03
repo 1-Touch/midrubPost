@@ -1,0 +1,64 @@
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+/*******************************
+MIDRUB ELEMENTS STYLES
+********************************/
+/*******************************
+PIXABAY STYLES
+********************************/
+body {
+  overflow: hidden; }
+
+.main {
+  width: 100%; }
+  .main section.pixabay-page {
+    padding: 30px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 12;
+    position: fixed;
+    overflow: auto;
+    background-color: #FFFFFF; }
+    .main section.pixabay-page form {
+      padding: 10px 0; }
+      .main section.pixabay-page form .input-group-text {
+        background-color: transparent;
+        border-right: 0; }
+      .main section.pixabay-page form button {
+        background-color: transparent;
+        border: 0;
+        padding: 0 15px;
+        border: 1px solid #ced4da;
+        border-radius: 0 3px 3px 0; }
+        .main section.pixabay-page form button:hover {
+          background-color: #e3e8ed;
+          cursor: pointer; }
+    .main section.pixabay-page p.no-results-found {
+      padding: 0;
+      line-height: 22px;
+      font-size: 16px;
+      color: #343a40;
+      margin-bottom: 0; }
+    .main section.pixabay-page .col-xl-4 {
+      margin-bottom: 30px; }
+      .main section.pixabay-page .col-xl-4 .col-xl-12 {
+        box-shadow: 0 2px rgba(0, 0, 0, 0.04); }
+        .main section.pixabay-page .col-xl-4 .col-xl-12 img {
+          width: 100%; }
+        .main section.pixabay-page .col-xl-4 .col-xl-12 a {
+          position: absolute;
+          top: 15px;
+          left: 15px;
+          font-size: 25px;
+          color: #ffffff;
+          display: none; }
+          .main section.pixabay-page .col-xl-4 .col-xl-12 a:hover {
+            border: 0;
+            opacity: 0.7; }
+        .main section.pixabay-page .col-xl-4 .col-xl-12:hover a {
+          display: block; }
+
+/*# sourceMappingURL=pixabay.css.map */

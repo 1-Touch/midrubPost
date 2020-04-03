@@ -1,0 +1,461 @@
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+/*******************************
+MIDRUB ELEMENTS STYLES
+********************************/
+/*******************************
+STORAGE APP STYLES
+********************************/
+section.storage-page > .row {
+  margin: 0; }
+  section.storage-page > .row > .col-xl-12 {
+    padding: 30px; }
+    section.storage-page > .row > .col-xl-12 > div {
+      border-radius: 5px;
+      border: 1px solid rgba(90, 122, 192, 0.08);
+      -webkit-box-shadow: 0 3px 0 0 rgba(90, 122, 192, 0.12);
+      box-shadow: 0 3px 0 0 rgba(90, 122, 192, 0.12);
+      background: #fff; }
+      section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-3 .nav-tabs {
+        display: inline-block;
+        border-bottom: 0;
+        border-right: 1px solid #E3EEF0;
+        background-color: #FAFCFD;
+        min-height: 1000px;
+        width: 100%;
+        height: 100%; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-3 .nav-tabs .nav-item.upload-files-area {
+          padding: 15px;
+          border-bottom: 1px solid #E3EEF0;
+          margin-bottom: 15px; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-3 .nav-tabs .nav-item.upload-files-area .upload-button {
+            width: 100%; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-3 .nav-tabs .nav-item.upload-files-area .upload-button .btn {
+              width: 100%;
+              height: 50px;
+              text-align: center;
+              border: 0;
+              background: #fff;
+              color: #5c6a70;
+              box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important;
+              -ms-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important;
+              -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important;
+              -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important; }
+              section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-3 .nav-tabs .nav-item.upload-files-area .upload-button .btn i {
+                float: left;
+                line-height: 22px; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-3 .nav-tabs .plan-storage {
+          margin: 0 15px;
+          padding: 15px;
+          font-size: 14px;
+          background-color: #FFFFFF;
+          color: #343a40;
+          position: absolute;
+          bottom: 15px;
+          width: calc(100% - 60px); }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-3 .nav-tabs .plan-storage .progress {
+            height: 5px; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-3 .nav-tabs .plan-storage .progress .progress-bar.bg-success {
+              background-color: #14b8c8 !important; }
+      section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content {
+        display: inline-block;
+        display: block;
+        margin-right: 20px;
+        border-bottom: 0;
+        border-right: 1px solid transparent;
+        padding-right: 15px; }
+        @media screen and (max-width: 1199px) {
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane {
+            padding: 0 0 0 30px; } }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:not(:checked),
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:checked {
+          position: absolute;
+          left: -9999px; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:not(:checked) + label,
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:checked + label {
+          position: relative;
+          padding-left: 1.95em;
+          cursor: pointer; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:not(:checked) + label:before,
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:checked + label:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 25px;
+          height: 25px;
+          border: 1px solid #fbf9f9;
+          background: #fff;
+          border-radius: 4px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important;
+          -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:not(:checked) + label:after,
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:checked + label:after {
+          content: '\2713\0020';
+          position: absolute;
+          top: .15em;
+          left: .22em;
+          font-size: 1.3em;
+          line-height: 0.8;
+          color: #09ad7e;
+          transition: all .2s; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:not(:checked) + label:after {
+          opacity: 0;
+          transform: scale(0); }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:checked + label:after {
+          opacity: 1;
+          transform: scale(1); }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:disabled:not(:checked) + label:before,
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:disabled:checked + label:before {
+          box-shadow: none;
+          border-color: #bbb;
+          background-color: #ddd; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:disabled:checked + label:after {
+          color: #999; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select input[type="checkbox"]:disabled + label {
+          color: #aaa; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select {
+          float: left;
+          margin-right: 10px;
+          padding-bottom: 20px; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane .checkbox-option-select label:before {
+            box-shadow: none; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .row {
+          margin: 0 -25px; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles {
+          margin: 15px -10px 20px;
+          padding: 0px; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:not(:checked),
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:checked {
+            position: absolute;
+            left: -9999px; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:not(:checked) + label,
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:checked + label {
+            position: relative;
+            padding-left: 1.95em;
+            cursor: pointer; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:not(:checked) + label:before,
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:checked + label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 25px;
+            height: 25px;
+            border: 1px solid #fbf9f9;
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:not(:checked) + label:after,
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:checked + label:after {
+            content: '\2713\0020';
+            position: absolute;
+            top: .15em;
+            left: .22em;
+            font-size: 1.3em;
+            line-height: 0.8;
+            color: #09ad7e;
+            transition: all .2s; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:not(:checked) + label:after {
+            opacity: 0;
+            transform: scale(0); }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:checked + label:after {
+            opacity: 1;
+            transform: scale(1); }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:disabled:not(:checked) + label:before,
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:disabled:checked + label:before {
+            box-shadow: none;
+            border-color: #bbb;
+            background-color: #ddd; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:disabled:checked + label:after {
+            color: #999; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select input[type="checkbox"]:disabled + label {
+            color: #aaa; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .checkbox-option-select {
+            float: left;
+            padding: 0;
+            margin-top: -4px; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary {
+            border: 0;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important;
+            background-color: #FFFFFF;
+            color: #333333;
+            line-height: 23px;
+            padding: 7px 10px 6px; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary.next-button, section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary.back-button {
+              border: 0;
+              -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+              box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+              background: #FFFFFF;
+              outline: none;
+              width: 40px;
+              height: 40px;
+              line-height: 9px; }
+              section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary.next-button.btn-disabled, section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary.next-button:hover, section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary.back-button.btn-disabled, section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary.back-button:hover {
+                color: rgba(65, 106, 166, 0.5); }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary.next-button.btn-disabled, section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .btn-secondary.back-button.btn-disabled {
+              pointer-events: none; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .dropdown {
+            padding: 10px 15px;
+            float: left;
+            margin-top: -11px; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .dropdown .show-all-categories {
+              display: none; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .dropdown .dropdown-menu {
+              padding: 0; }
+              section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .dropdown .dropdown-menu .dropdown-item {
+                font-size: 16px;
+                padding: 10px; }
+                section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .dropdown .dropdown-menu .dropdown-item i {
+                  margin: 0;
+                  margin-right: 5px;
+                  color: #343a40; }
+                section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .dropdown .dropdown-menu .dropdown-item:active, section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .dropdown .dropdown-menu .dropdown-item:focus, section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .dropdown .dropdown-menu .dropdown-item:hover {
+                  background-color: #f7f7f7 !important;
+                  color: #343a40;
+                  border: 0; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles .stream-media-categories .dropdown-divider {
+            margin: 0; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .page-titles p {
+            float: right;
+            color: #343a40;
+            font-family: "Open Sans", sans-serif, "Arimo";
+            font-size: 16px; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-category-selected {
+          margin: 0 -10px;
+          background-color: #fdfdfd;
+          border: 1px solid #e9ecef;
+          border-radius: 2px;
+          box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05);
+          line-height: 45px;
+          margin-bottom: 20px;
+          display: none;
+          opacity: 0; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-category-selected .btn-dark {
+            padding: 5px 10px 3px;
+            font-size: 13px;
+            background-color: #ea6759;
+            border-color: #ea6759;
+            color: #FFFFFF;
+            margin-top: -1px; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-category-selected .btn-dark:hover {
+              opacity: 0.7; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .hidden-action {
+          display: none; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager.displayed-category .hidden-action {
+          display: block; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager.displayed-category .storage-category-selected {
+          display: flex;
+          -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+          animation-fill-mode: forwards; }
+        section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media {
+          min-height: 200px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+          border-radius: 3px;
+          margin-bottom: 20px; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media h3 {
+            font-size: 14px;
+            color: #818d9a;
+            padding: 7px;
+            margin: 0 -5px;
+            min-height: 32px; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media h3 .checkbox-option-select {
+              float: left;
+              padding: 0;
+              margin-right: 0;
+              margin-top: -4px; }
+              section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media h3 .checkbox-option-select label::before {
+                width: 17px !important;
+                height: 17px !important; }
+              section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media h3 .checkbox-option-select label::after {
+                left: 0.15em;
+                transform: scale(0.8); }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .dropdown-menu {
+            padding: 0; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .dropdown-menu a:hover {
+              border-bottom: 0; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .btn-secondary {
+            background-color: transparent;
+            border: 0;
+            color: #c1c5ca;
+            padding: 0; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .btn-secondary:hover {
+              color: #343a40; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .btn-secondary i {
+              margin-right: 0; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .btn-secondary:after {
+              display: none; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .row:first-child {
+            margin: 0 -15px;
+            border-bottom: 1px solid #e9ecef; }
+            section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .row:first-child > div {
+              padding: 0 10px; }
+          section.storage-page > .row > .col-xl-12 > div > .row > .col-xl-9 .tab-content > .tab-pane#file-manager .storage-single-media .row:last-child .col-12 {
+            padding: 10px 20px; }
+
+/*******************************
+MODAL APP STYLES
+********************************/
+#storage-create-new-category .modal-body,
+#storage-add-to-category .modal-body {
+  min-height: 30px; }
+  #storage-create-new-category .modal-body .storage-category-form-input,
+  #storage-add-to-category .modal-body .storage-category-form-input {
+    width: 100%;
+    min-height: 30px;
+    padding: 0;
+    border: 1px solid #e1e8f0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.02);
+    border-radius: 4px; }
+    #storage-create-new-category .modal-body .storage-category-form-input input[type="text"],
+    #storage-create-new-category .modal-body .storage-category-form-input select,
+    #storage-add-to-category .modal-body .storage-category-form-input input[type="text"],
+    #storage-add-to-category .modal-body .storage-category-form-input select {
+      width: 100%;
+      height: 45px;
+      border: 0 !important; }
+      #storage-create-new-category .modal-body .storage-category-form-input input[type="text"] ::placeholder,
+      #storage-create-new-category .modal-body .storage-category-form-input select ::placeholder,
+      #storage-add-to-category .modal-body .storage-category-form-input input[type="text"] ::placeholder,
+      #storage-add-to-category .modal-body .storage-category-form-input select ::placeholder {
+        color: #999999; }
+      #storage-create-new-category .modal-body .storage-category-form-input input[type="text"] :-ms-input-placeholder,
+      #storage-create-new-category .modal-body .storage-category-form-input select :-ms-input-placeholder,
+      #storage-add-to-category .modal-body .storage-category-form-input input[type="text"] :-ms-input-placeholder,
+      #storage-add-to-category .modal-body .storage-category-form-input select :-ms-input-placeholder {
+        color: #999999; }
+      #storage-create-new-category .modal-body .storage-category-form-input input[type="text"] ::-ms-input-placeholder,
+      #storage-create-new-category .modal-body .storage-category-form-input select ::-ms-input-placeholder,
+      #storage-add-to-category .modal-body .storage-category-form-input input[type="text"] ::-ms-input-placeholder,
+      #storage-add-to-category .modal-body .storage-category-form-input select ::-ms-input-placeholder {
+        color: #999999; }
+#storage-create-new-category .modal-footer .storage-category-save,
+#storage-add-to-category .modal-footer .storage-category-save {
+  height: 36px;
+  background-color: #6086bf;
+  border-color: #6086bf;
+  color: #FFFFFF;
+  font-size: 14px;
+  float: right; }
+  #storage-create-new-category .modal-footer .storage-category-save i,
+  #storage-add-to-category .modal-footer .storage-category-save i {
+    font-size: 16px;
+    margin-right: 5px;
+    float: left;
+    margin-top: 1px; }
+  #storage-create-new-category .modal-footer .storage-category-save:hover,
+  #storage-add-to-category .modal-footer .storage-category-save:hover {
+    opacity: 0.7; }
+
+#file-upload-box .modal-body {
+  min-height: 600px; }
+  #file-upload-box .modal-body .col-4 #pills-tab {
+    margin: 0;
+    padding: 0; }
+    #file-upload-box .modal-body .col-4 #pills-tab li {
+      width: 100%;
+      margin-bottom: 15px; }
+      #file-upload-box .modal-body .col-4 #pills-tab li .nav-link {
+        margin: 0 0 -1px;
+        padding: 12px 15px;
+        font-size: 14px;
+        color: #D1D7DD;
+        background-color: transparent;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important; }
+        #file-upload-box .modal-body .col-4 #pills-tab li .nav-link.active, #file-upload-box .modal-body .col-4 #pills-tab li .nav-link:hover {
+          border-radius: 0;
+          border: 0;
+          color: #343a40; }
+  #file-upload-box .modal-body .col-8 .dropdown {
+    padding: 10px 10px;
+    margin-top: -11px;
+    width: 100%; }
+    #file-upload-box .modal-body .col-8 .dropdown .btn-secondary {
+      padding: 7px 10px 6px;
+      width: 100%;
+      border: 0;
+      line-height: 23px;
+      text-align: left;
+      color: #333333;
+      background-color: #FFFFFF;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px !important; }
+      #file-upload-box .modal-body .col-8 .dropdown .btn-secondary::after {
+        float: right;
+        margin-top: 7px; }
+    #file-upload-box .modal-body .col-8 .dropdown .dropdown-menu {
+      padding: 0;
+      width: calc(100% - 20px); }
+      #file-upload-box .modal-body .col-8 .dropdown .dropdown-menu .dropdown-item {
+        font-size: 16px;
+        padding: 10px; }
+        #file-upload-box .modal-body .col-8 .dropdown .dropdown-menu .dropdown-item i {
+          margin: 0;
+          margin-right: 5px;
+          color: #343a40; }
+        #file-upload-box .modal-body .col-8 .dropdown .dropdown-menu .dropdown-item:active, #file-upload-box .modal-body .col-8 .dropdown .dropdown-menu .dropdown-item:focus, #file-upload-box .modal-body .col-8 .dropdown .dropdown-menu .dropdown-item:hover {
+          background-color: #f7f7f7 !important;
+          color: #343a40;
+          border: 0; }
+  #file-upload-box .modal-body .col-8 .import-images-from-url,
+  #file-upload-box .modal-body .col-8 .drag-and-drop-files {
+    height: 550px;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+    #file-upload-box .modal-body .col-8 .import-images-from-url.drag-and-drop-files > div,
+    #file-upload-box .modal-body .col-8 .drag-and-drop-files.drag-and-drop-files > div {
+      height: 530px; }
+      #file-upload-box .modal-body .col-8 .import-images-from-url.drag-and-drop-files > div i,
+      #file-upload-box .modal-body .col-8 .drag-and-drop-files.drag-and-drop-files > div i {
+        margin-top: 200px;
+        transition: margin 700ms; }
+        #file-upload-box .modal-body .col-8 .import-images-from-url.drag-and-drop-files > div i.drag-upload-active,
+        #file-upload-box .modal-body .col-8 .drag-and-drop-files.drag-and-drop-files > div i.drag-upload-active {
+          margin-top: 170px;
+          margin-bottom: 10px; }
+    #file-upload-box .modal-body .col-8 .import-images-from-url .imported-urls,
+    #file-upload-box .modal-body .col-8 .drag-and-drop-files .imported-urls {
+      padding: 10px;
+      width: 100%;
+      height: 480px;
+      resize: none;
+      border: 1px solid #dee2e6; }
+    #file-upload-box .modal-body .col-8 .import-images-from-url .btn-download-photos,
+    #file-upload-box .modal-body .col-8 .drag-and-drop-files .btn-download-photos {
+      height: 36px;
+      margin-top: 6px;
+      background-color: #6086bf;
+      border-color: #6086bf;
+      color: #ffffff;
+      float: right;
+      font-size: 14px; }
+      #file-upload-box .modal-body .col-8 .import-images-from-url .btn-download-photos i,
+      #file-upload-box .modal-body .col-8 .drag-and-drop-files .btn-download-photos i {
+        margin-right: 5px; }
+      #file-upload-box .modal-body .col-8 .import-images-from-url .btn-download-photos:hover,
+      #file-upload-box .modal-body .col-8 .drag-and-drop-files .btn-download-photos:hover {
+        opacity: 0.8; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=styles.css.map */

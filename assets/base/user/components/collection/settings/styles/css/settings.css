@@ -1,0 +1,339 @@
+/*******************************
+IMPORT FONTS
+********************************/
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+/*******************************
+MIDRUB ELEMENTS STYLES
+********************************/
+/*******************************
+SETTINGS STYLES
+********************************/
+section {
+  transform: scale(0.5);
+  -webkit-animation: loadingOpacity 0.5s;
+  animation: loadingOpacity 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+  section.settings-page {
+    padding: 30px; }
+    section.settings-page .tab-pane {
+      padding: 0; }
+    section.settings-page .settings-title {
+      font-size: 23px;
+      font-weight: 300;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 40px;
+      margin-left: -15px; }
+      section.settings-page .settings-title .settings-save-changes {
+        float: right;
+        padding: 5px 20px 7px;
+        font-size: 14px;
+        background-color: #6086bf;
+        border-color: #6086bf;
+        -webkit-box-shadow: 0 -3px 0px 0px rgba(0, 0, 0, 0.12) inset, inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 -3px 0px 0px rgba(0, 0, 0, 0.12) inset, inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+        display: none; }
+        section.settings-page .settings-title .settings-save-changes:hover {
+          opacity: 0.7; }
+    section.settings-page > .row > .col-xl-2 {
+      min-height: 100px;
+      display: inline-table;
+      padding: 25px 15px;
+      margin-bottom: 20px;
+      background-color: #FFFFFF;
+      -webkit-box-shadow: 0 0 0 1px rgba(61, 70, 79, 0.05), 0 1px 3px 0 rgba(61, 70, 79, 0.05);
+      box-shadow: 0 0 0 1px rgba(61, 70, 79, 0.05), 0 1px 3px 0 rgba(61, 70, 79, 0.05); }
+      section.settings-page > .row > .col-xl-2 .settings-menu-group {
+        width: 100%;
+        margin-bottom: 40px; }
+        section.settings-page > .row > .col-xl-2 .settings-menu-group:last-child {
+          margin-bottom: 0; }
+        section.settings-page > .row > .col-xl-2 .settings-menu-group .settings-menu-header {
+          font-size: 15px;
+          font-weight: 300;
+          margin-bottom: 20px;
+          font-family: "Open Sans", sans-serif;
+          margin-top: 25px; }
+        section.settings-page > .row > .col-xl-2 .settings-menu-group .nav {
+          width: 100%;
+          border-bottom: 0; }
+          section.settings-page > .row > .col-xl-2 .settings-menu-group .nav li {
+            width: 100%;
+            padding: 0; }
+            section.settings-page > .row > .col-xl-2 .settings-menu-group .nav li:first-child .settings-menu-header {
+              margin-top: 0; }
+            section.settings-page > .row > .col-xl-2 .settings-menu-group .nav li a {
+              padding: 0 15px;
+              font-family: "Open Sans", sans-serif, Arial, Helvetica;
+              font-size: 14px;
+              color: #343a40;
+              line-height: 40px;
+              display: block;
+              border: 0; }
+              section.settings-page > .row > .col-xl-2 .settings-menu-group .nav li a.active {
+                color: #333333;
+                background-color: #f9fafb; }
+              section.settings-page > .row > .col-xl-2 .settings-menu-group .nav li a:hover {
+                border-bottom: 0; }
+    @media only screen and (max-width: 1199px) {
+      section.settings-page > .row .col-xl-6 {
+        padding: 0; } }
+    section.settings-page > .row .col-xl-6 .settings-list {
+      min-height: 500px;
+      border-radius: 4px;
+      background-color: #FFFFFF;
+      border: 1px solid #edf2f9;
+      -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+      box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03); }
+      section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .input-group {
+        padding: 15px;
+        padding: 15px;
+        background-color: #fbfbfb;
+        border: 1px solid #f6f7f7;
+        margin: 15px;
+        width: calc(100% - 30px); }
+        section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .input-group h4 {
+          color: #343a40;
+          font-size: 15px;
+          width: 100%;
+          font-weight: 600;
+          font-family: "Open Sans", sans-serif, "Arimo"; }
+        section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .input-group p {
+          width: 100%;
+          font-size: 13px;
+          color: #827f9b;
+          margin-bottom: 15px; }
+        section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .input-group input[type="text"] {
+          color: #495047;
+          background-color: #fff;
+          background-clip: padding-box;
+          border: 0;
+          height: 45px;
+          -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) !important;
+          -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) !important;
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) !important; }
+        section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .input-group .btn-default {
+          border-radius: 0;
+          background-color: #FFFFFF;
+          border-color: #FFFFFF;
+          -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          margin-left: 15px;
+          font-size: 20px;
+          padding: 10px 10px 0;
+          width: 50px; }
+          section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .input-group .btn-default:hover {
+            opacity: 0.7; }
+          section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .input-group .btn-default i {
+            margin-right: 0; }
+      section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .referral-single-stats > .col-xl-12 {
+        border: 1px solid #dee3eb;
+        min-height: 100px; }
+        section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .referral-single-stats > .col-xl-12 h3 {
+          text-align: center;
+          color: #44484f;
+          font-weight: 400;
+          line-height: 50px; }
+        section.settings-page > .row .col-xl-6 .settings-list .tab-pane#referrals .referral-single-stats > .col-xl-12 p {
+          text-align: center;
+          color: #a1aab7;
+          font-size: 13px; }
+      @media only screen and (max-width: 1199px) {
+        section.settings-page > .row .col-xl-6 .settings-list .tab-pane {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          max-width: 100%; } }
+      section.settings-page > .row .col-xl-6 .settings-list .panel .panel-heading {
+        padding: 15px;
+        font-size: 15px;
+        border-bottom: 1px solid rgba(65, 106, 166, 0.1);
+        color: #212529; }
+      section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body {
+        min-height: 600px;
+        padding-bottom: 20px; }
+        section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options {
+          margin: 0;
+          padding: 0; }
+          section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li {
+            padding: 15px;
+            list-style: none;
+            border-bottom: 1px solid rgba(65, 106, 166, 0.05); }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li:last-child {
+              border-bottom: 0; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li h4 {
+              font-weight: 400;
+              font-size: 15px;
+              color: #212529; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li p {
+              font-size: 13px;
+              color: #827f9b; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li a {
+              border: 1px solid #dddddd;
+              -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+              box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+              background-color: #FFFFFF;
+              color: #343a40;
+              line-height: 23px;
+              padding: 7px 10px 6px;
+              margin-top: 4px;
+              display: block;
+              text-align: center; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .checkbox-option {
+              width: 100%;
+              text-align: right; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .checkbox-option input[type=checkbox] {
+                display: none; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .checkbox-option input[type=text] {
+                height: 35px;
+                line-height: 35px;
+                width: 100%;
+                padding: 0 7px;
+                border: 1px solid #c1c7cd;
+                color: #1b2733;
+                margin-top: 2px; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .checkbox-option label {
+                cursor: pointer;
+                position: relative;
+                width: 50px;
+                margin-right: 15px;
+                margin-top: 20px; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .checkbox-option label::before {
+                content: '';
+                background-color: #ced8dc;
+                box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+                border-radius: 8px;
+                height: 14px;
+                margin-top: -6px;
+                position: absolute;
+                opacity: 0.3;
+                transition: all 0.4s ease-in-out;
+                width: 50px;
+                margin-left: -45px; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .checkbox-option label::after {
+                background-color: #c1c7cd;
+                border-radius: 16px;
+                content: '';
+                height: 24px;
+                left: -4px;
+                margin-top: -8px;
+                position: absolute;
+                top: -4px;
+                transition: all 0.3s ease-in-out;
+                width: 24px; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .checkbox-option input[type=checkbox]:checked + label::after {
+                left: 40px;
+                background-color: #01a28b;
+                box-shadow: none; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .textarea-option {
+              width: 100%;
+              text-align: right; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .textarea-option input {
+                width: 100%;
+                padding: 6px 10px;
+                outline: 0;
+                resize: none;
+                border: 1px solid #e6ecf0;
+                border-radius: 3px; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .textarea-option .btn {
+                display: none; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .textarea-option.disabled input {
+                background-color: #fbfbfb;
+                border: 1px solid #fbfbfb;
+                pointer-events: none; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .textarea-option.disabled .btn {
+                display: block;
+                position: absolute;
+                top: 0px;
+                right: 15px;
+                padding: 5px 5px 3px; }
+                section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .textarea-option.disabled .btn:hover {
+                  background-color: #fbfbfb;
+                  border: 1px solid #fbfbfb;
+                  color: #000000; }
+                section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .textarea-option.disabled .btn i {
+                  margin-right: 0; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .select-option {
+              width: 100%;
+              text-align: right; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-options li .select-option select {
+                width: 100%;
+                padding: 4px;
+                outline: 0;
+                background-color: #fff;
+                border: 1px solid #e6ecf0;
+                border-radius: 3px;
+                margin-top: 4px; }
+        section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-plan-usage {
+          margin: 0;
+          padding: 15px 15px 0; }
+          section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-plan-usage li {
+            margin-bottom: 15px;
+            list-style: none;
+            margin-top: 10px;
+            background-color: #fbfbfb;
+            min-height: 60px;
+            padding: 14px;
+            font-size: 14px;
+            color: #818a91; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-plan-usage li a {
+              color: #1da1f2; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-plan-usage li .progress {
+              height: 5px; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-plan-usage li .progress .progress-bar {
+                height: 5px; }
+                section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-plan-usage li .progress .progress-bar.bg-success {
+                  background-color: #14b8c8 !important; }
+                section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-plan-usage li .progress .progress-bar.bg-danger {
+                  background-color: #ea6759 !important; }
+        section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-invoices {
+          margin: 15px;
+          padding: 0; }
+          section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-invoices li {
+            width: 100%;
+            min-height: 50px;
+            list-style: none;
+            margin-bottom: 15px;
+            border-radius: 3px;
+            -webkit-box-shadow: 0 2px 2px rgba(36, 37, 37, 0.09);
+            box-shadow: 0 2px 2px rgba(36, 37, 37, 0.09); }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-invoices li .row .col-xl-9 h3 {
+              font-family: "Open Sans", sans-serif, "Arimo";
+              font-weight: 600;
+              color: #303233;
+              font-size: 13px;
+              margin: 0;
+              line-height: 54px;
+              padding-left: 10px; }
+            section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-invoices li .row .col-xl-3 a {
+              margin: 10px;
+              height: 36px;
+              background-color: #6086bf;
+              border-color: #6086bf;
+              font-size: 14px;
+              color: #FFFFFF; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-invoices li .row .col-xl-3 a.btn-success {
+                background-color: #01a28b;
+                border-color: #01a28b; }
+              section.settings-page > .row .col-xl-6 .settings-list .panel .panel-body .settings-list-invoices li .row .col-xl-3 a:hover {
+                opacity: 0.8; }
+      section.settings-page > .row .col-xl-6 .settings-list .panel .panel-footer .pagination {
+        margin: 0 15px 15px;
+        padding: 0; }
+
+#change-password .modal-footer .btn {
+  padding: 5px 20px 7px;
+  font-size: 14px;
+  background-color: #6086bf;
+  border-color: #6086bf;
+  -webkit-box-shadow: 0 -3px 0px 0px rgba(0, 0, 0, 0.12) inset, inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 -3px 0px 0px rgba(0, 0, 0, 0.12) inset, inset 0 0 0 1px rgba(0, 0, 0, 0.08); }
+  #change-password .modal-footer .btn:hover {
+    opacity: 0.7; }
+
+/*# sourceMappingURL=settings.css.map */

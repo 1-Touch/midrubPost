@@ -1,0 +1,295 @@
+/*******************************
+IMPORT FONTS
+********************************/
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+/*******************************
+MIDRUB ELEMENTS STYLES
+********************************/
+/*******************************
+TEAMS STYLES
+********************************/
+section {
+  transform: scale(0.5);
+  -webkit-animation: loadingOpacity 0.5s;
+  animation: loadingOpacity 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+  section.teams-page {
+    padding: 30px; }
+    section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 {
+      margin-bottom: 20px;
+      min-height: 60px;
+      border-radius: 3px;
+      padding: 0; }
+      section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-heading {
+        width: 100%;
+        height: 60px;
+        padding: 0 15px;
+        border-bottom: 1px solid rgba(65, 106, 166, 0.1); }
+        section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-heading h3 {
+          line-height: 60px;
+          font-size: 18px;
+          color: #343a40; }
+          section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-heading h3 i {
+            margin-right: 5px; }
+        section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-heading .team-member-roles {
+          height: 40px;
+          width: 40px;
+          text-align: center;
+          line-height: 20px;
+          font-size: 20px;
+          background-color: #ffffff;
+          border: 1px solid rgba(65, 106, 166, 0.1);
+          color: #343a40;
+          float: right;
+          margin-top: 10px;
+          box-shadow: inset 0 -3px 0 0 rgba(65, 106, 166, 0.1) !important;
+          border-radius: 3px;
+          margin-left: 15px; }
+          section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-heading .team-member-roles:hover {
+            color: #333333;
+            border: 1px solid rgba(65, 106, 166, 0.2);
+            box-shadow: inset 0 -3px 0 0 rgba(65, 106, 166, 0.2) !important; }
+          section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-heading .team-member-roles i {
+            margin-right: 0; }
+      section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-body .list-group-item {
+        border: 0;
+        padding: 15px; }
+        section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-body .list-group-item textarea {
+          resize: none;
+          min-height: 200px; }
+        section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-body .list-group-item .buttons-control {
+          text-align: right;
+          padding-top: 12px; }
+          section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-body .list-group-item .buttons-control .btn-success {
+            height: 36px;
+            background-color: #6086bf;
+            border-color: #6086bf;
+            font-size: 14px; }
+            section.teams-page .container-fluid > .row > .col-xl-3 > .col-xl-12 .panel-body .list-group-item .buttons-control .btn-success i {
+              font-size: 16px;
+              margin-right: 5px;
+              float: left;
+              margin-top: 1px; }
+    section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .nav-tabs {
+      border-bottom: 1px solid #dee2e6; }
+      section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .nav-tabs .nav-link {
+        color: #999999;
+        font-size: 18px;
+        padding: 15px 25px; }
+      section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .nav-tabs .nav-link.active,
+      section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .nav-tabs .nav-link:hover {
+        border: 1px solid transparent;
+        border-bottom: 1px solid #2e5f9b;
+        color: #2e5f9b; }
+    section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .container-fluid {
+      padding: 30px 0; }
+      section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .container-fluid article figure {
+        border-radius: 3px;
+        padding: 15px; }
+        section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .container-fluid article figure img {
+          width: 100%; }
+        section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .container-fluid article figure header {
+          background-color: transparent;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          height: 30px;
+          padding: 9px 0; }
+          section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .container-fluid article figure header a {
+            margin-top: 2px;
+            display: block; }
+            section.teams-page .container-fluid > .row > .col-xl-9 > .col-xl-12 .container-fluid article figure header a:hover {
+              border: 0;
+              opacity: 0.7; }
+
+.modal .modal-header {
+  padding: 0;
+  border: 0; }
+  .modal .modal-header nav {
+    width: 100%;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+    box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+    border-bottom: 1px solid rgba(65, 106, 166, 0.1); }
+    .modal .modal-header nav .nav-tabs {
+      border-bottom: 0; }
+      .modal .modal-header nav .nav-tabs .nav-link {
+        color: #999999;
+        font-size: 16px;
+        padding: 15px 25px; }
+      .modal .modal-header nav .nav-tabs .nav-link.active,
+      .modal .modal-header nav .nav-tabs .nav-link:hover {
+        border: 1px solid transparent;
+        border-bottom: 1px solid #2e5f9b;
+        color: #2e5f9b; }
+    .modal .modal-header nav button {
+      position: absolute;
+      right: 15px;
+      top: 15px; }
+.modal .modal-content {
+  min-height: 700px; }
+  .modal .modal-content .modal-body {
+    padding: 0; }
+    .modal .modal-content .modal-body .btn-success {
+      height: 36px;
+      background-color: #6086bf;
+      border-color: #6086bf;
+      font-size: 14px; }
+    .modal .modal-content .modal-body #nav-member-roles {
+      padding: 15px; }
+      .modal .modal-content .modal-body #nav-member-roles .btn-success {
+        height: auto; }
+      .modal .modal-content .modal-body #nav-member-roles .card {
+        border: 0;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+        background-color: #FFFFFF;
+        line-height: 23px;
+        padding: 0;
+        margin-bottom: 15px; }
+        .modal .modal-content .modal-body #nav-member-roles .card .card-header {
+          background-color: transparent;
+          border: 0;
+          padding: 0; }
+          .modal .modal-content .modal-body #nav-member-roles .card .card-header .btn-group {
+            width: 100%; }
+            .modal .modal-content .modal-body #nav-member-roles .card .card-header .btn-group .btn-link {
+              color: #333333;
+              width: 95%;
+              text-align: left;
+              padding: 10px 10px 9px;
+              display: block; }
+              .modal .modal-content .modal-body #nav-member-roles .card .card-header .btn-group .btn-link:hover, .modal .modal-content .modal-body #nav-member-roles .card .card-header .btn-group .btn-link:focus {
+                text-decoration: none; }
+            .modal .modal-content .modal-body #nav-member-roles .card .card-header .btn-group .btn-delete-link {
+              color: #333333;
+              background-color: transparent;
+              width: 5%;
+              text-align: center;
+              padding: 10px 10px 9px;
+              display: block; }
+              .modal .modal-content .modal-body #nav-member-roles .card .card-header .btn-group .btn-delete-link:hover, .modal .modal-content .modal-body #nav-member-roles .card .card-header .btn-group .btn-delete-link:focus {
+                text-decoration: none; }
+        .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options {
+          border-top: 1px solid #f0f0f0; }
+          .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body {
+            padding: 1.25rem 12px; }
+            .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .nav-pills .nav-link {
+              color: #818a91;
+              margin-bottom: 5px; }
+              .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .nav-pills .nav-link i {
+                color: #818a91; }
+              .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .nav-pills .nav-link.active {
+                color: #343a40;
+                background-color: #fbfbfb; }
+                .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .nav-pills .nav-link.active i {
+                  color: #343a40; }
+              .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .nav-pills .nav-link:hover {
+                border-bottom: 0; }
+            .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions {
+              margin: 0;
+              padding: 0; }
+              .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li {
+                padding: 15px;
+                list-style: none;
+                border-bottom: 1px solid rgba(65, 106, 166, 0.05); }
+                .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li:last-child {
+                  border-bottom: 0; }
+                .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li h4 {
+                  font-weight: 400;
+                  font-size: 15px;
+                  color: #212529; }
+                .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li p {
+                  font-size: 13px;
+                  color: #343a40; }
+                .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li a {
+                  border: 1px solid #dddddd;
+                  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+                  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+                  background-color: #FFFFFF;
+                  color: #343a40;
+                  line-height: 23px;
+                  padding: 7px 10px 6px;
+                  margin-top: 4px;
+                  display: block;
+                  text-align: center; }
+                .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li .checkbox-option {
+                  width: 100%;
+                  text-align: right; }
+                  .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li .checkbox-option input[type=checkbox] {
+                    display: none; }
+                  .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li .checkbox-option input[type=text] {
+                    height: 35px;
+                    line-height: 35px;
+                    width: 100%;
+                    padding: 0 7px;
+                    border: 1px solid #c1c7cd;
+                    color: #1b2733;
+                    margin-top: 2px; }
+                  .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li .checkbox-option label {
+                    cursor: pointer;
+                    position: relative;
+                    width: 50px;
+                    margin-right: 15px;
+                    margin-top: 20px; }
+                  .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li .checkbox-option label::before {
+                    content: '';
+                    background-color: #ced8dc;
+                    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+                    border-radius: 8px;
+                    height: 14px;
+                    margin-top: -6px;
+                    position: absolute;
+                    opacity: 0.3;
+                    transition: all 0.4s ease-in-out;
+                    width: 50px;
+                    margin-left: -45px; }
+                  .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li .checkbox-option label::after {
+                    background-color: #c1c7cd;
+                    border-radius: 16px;
+                    content: '';
+                    height: 24px;
+                    left: -4px;
+                    margin-top: -8px;
+                    position: absolute;
+                    top: -4px;
+                    transition: all 0.3s ease-in-out;
+                    width: 24px; }
+                  .modal .modal-content .modal-body #nav-member-roles .card .show-roles-options .card-body .list-permissions li .checkbox-option input[type=checkbox]:checked + label::after {
+                    left: 40px;
+                    background-color: #01a28b;
+                    box-shadow: none; }
+    .modal .modal-content .modal-body .list-group {
+      font-size: 15px; }
+      .modal .modal-content .modal-body .list-group .list-group-item {
+        margin: 15px;
+        padding: 10px;
+        border-radius: 3px;
+        border: 0;
+        line-height: 23px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+        background-color: #FFFFFF; }
+        .modal .modal-content .modal-body .list-group .list-group-item .col-xl-8,
+        .modal .modal-content .modal-body .list-group .list-group-item .col-xl-5 {
+          color: #343a40; }
+        .modal .modal-content .modal-body .list-group .list-group-item .col-xl-4 {
+          text-align: right; }
+        .modal .modal-content .modal-body .list-group .list-group-item .col-xl-7 {
+          line-height: 20px; }
+          .modal .modal-content .modal-body .list-group .list-group-item .col-xl-7 p {
+            line-height: 25px; }
+    .modal .modal-content .modal-body .update-member-data .list-group-item {
+      padding: 20px; }
+      .modal .modal-content .modal-body .update-member-data .list-group-item textarea {
+        resize: none;
+        min-height: 200px; }
+      .modal .modal-content .modal-body .update-member-data .list-group-item .buttons-control {
+        text-align: right;
+        padding-top: 12px; }
+
+/*# sourceMappingURL=styles.css.map */

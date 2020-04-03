@@ -1,0 +1,27 @@
+<?php
+$lang["admin"] = "Administrator";
+$lang["admin_transactions"] = "Transactions";
+$lang["admin_delete"] = "Delete";
+$lang["admin_search_for_transactions"] = "Search for transactions ...";
+$lang["admin_success"] = "success";
+$lang["admin_error"] = "error";
+$lang["admin_incomplete"] = "incomplete";
+$lang["admin_no_data_found_to_show"] = "No data found to show.";
+$lang["admin_please_select_at_least_one_transaction"] = "Please select at least one transaction.";
+$lang["admin_transaction_was_deleted"] = "The transaction was deleted successfully.";
+$lang["admin_transaction_was_not_deleted"] = "The transaction was not deleted successfully.";
+$lang["admin_transactions_were_deleted"] = "The transactions were deleted successfully.";
+$lang["admin_transactions_were_not_deleted"] = "The transactions were not deleted successfully.";
+$lang["admin_print"] = "Print";
+$lang["admin_transaction_details"] = "Transaction's Details";
+$lang["admin_transaction_fields"] = "Transaction's Fields";
+$lang["admin_transaction_options"] = "Transaction's Options";
+$lang["admin_no_transactions_fields_found"] = "No transaction's fields found.";
+$lang["admin_no_transactions_options_found"] = "No transaction's options found.";
+$lang["admin_user"] = "User";
+$lang["admin_amount"] = "Amount";
+$lang["admin_currency"] = "Currency";
+$lang["admin_status"] = "Status";
+$lang["admin_gateway"] = "Gateway";
+$lang["admin_gateway_transaction_id"] = "Gateway Transaction ID";
+$lang["admin_created"] = "Created";

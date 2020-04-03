@@ -1,0 +1,23 @@
+<?php
+$lang["theme_dashboard"] = "Dashboard";
+$lang["theme_sign_out"] = "Sign Out";
+$lang["theme_per_year"] = "per year";
+$lang["theme_per_month"] = "per month";
+$lang["theme_website_uses_cookies"] = "This website uses cookies to ensure you get the best experience on our website.";
+$lang["theme_learn_more"] = "Learn more";
+$lang["theme_accept"] = "Accept";
+$lang["theme_get_started"] = "Get Started";
+$lang["theme_thank_you_for_email"] = "Thank you. We have received your email and our Customer Service team will be responding to you soon.";
+$lang["theme_an_error_send_email"] = "An error occurred while processing your request. Please try again.";
+$lang["submit"] = "Submit";
+$lang["theme_location"] = "Location";
+$lang["theme_phone"] = "Phone";
+$lang["theme_hours"] = "Hours";
+$lang["full_name"] = "Full name";
+$lang["subject"] = "Subject";
+$lang["theme_top_section_stats"] = "Stats";
+$lang["theme_new_stats"] = "New Stats";
+$lang["theme_top_section_stats_title"] = "Stats Name";
+$lang["theme_top_section_stats_title_description"] = "Enter the stats name displayed with high text";
+$lang["theme_top_section_stats_value"] = "Stats Value";
+$lang["theme_top_section_stats_value_description"] = "Enter the stats value displayed with small text";

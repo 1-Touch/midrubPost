@@ -1,0 +1,132 @@
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+/*******************************
+CHATBOT WIDGETS STYLES
+********************************/
+.dashboard-chatbot-widget {
+  margin-bottom: 30px; }
+  .dashboard-chatbot-widget > .panel > .panel-heading {
+    padding: 15px;
+    border-bottom: 1px solid rgba(65, 106, 166, 0.1);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif, Arial, Helvetica;
+    color: #343a40; }
+    .dashboard-chatbot-widget > .panel > .panel-heading i {
+      float: left;
+      margin-right: 10px;
+      margin-top: 2px;
+      font-size: 14px; }
+  .dashboard-chatbot-widget > .panel > .panel-body {
+    padding: 0 !important;
+    min-height: 30px; }
+    .dashboard-chatbot-widget > .panel > .panel-body #replies-stats-chart,
+    .dashboard-chatbot-widget > .panel > .panel-body #pi-chart {
+      height: 500px !important;
+      width: 100% !important; }
+    .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list {
+      margin: 0;
+      padding: 15px;
+      min-height: 650px; }
+      .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li {
+        margin: 0;
+        margin-bottom: 15px;
+        padding: 15px 15px 0 35px;
+        border: 1px solid rgba(65, 106, 166, 0.1);
+        min-height: 78px;
+        list-style: none; }
+        .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li.no-results {
+          margin: 0 -15px;
+          padding: 0 15px;
+          min-height: auto;
+          width: calc(100% + 30px);
+          border: 0;
+          line-height: 45px;
+          color: #333333;
+          background-color: #f9fafb; }
+        .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li:last-child {
+          margin-bottom: 0; }
+        .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li.inbox-account-details-active {
+          box-shadow: 0 0 10px 0 rgba(136, 152, 170, 0.15);
+          -webkit-box-shadow: 0 0 10px 0 rgba(136, 152, 170, 0.15); }
+          .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li.inbox-account-details-active .inbox-account-details {
+            background-color: #2e5f9b;
+            border: 1px solid #2e5f9b;
+            color: #FFFFFF; }
+        .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li h4 {
+          font-size: 14px;
+          padding: 0;
+          margin: 0;
+          color: #343a40; }
+          .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li h4 i {
+            margin-left: -28px;
+            line-height: 27px;
+            background-color: #FFFFFF;
+            font-size: 18px;
+            border: 3px solid #ffffff;
+            position: absolute; }
+            .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li h4 i.icon-user {
+              color: #01c0c8; }
+        .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li h3 {
+          font-size: 16px;
+          line-height: 45px;
+          padding: 0;
+          margin: 0;
+          margin-left: -20px; }
+          .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li h3 img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 10px; }
+        .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li p {
+          color: #c0cddc;
+          font-size: 12px;
+          margin-bottom: 0; }
+        .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li .btn-outline-info {
+          margin-top: 3px;
+          border: 1px solid #ebedf2;
+          color: #343a40;
+          float: right; }
+          .dashboard-chatbot-widget > .panel > .panel-body .subscribers-list li .btn-outline-info:hover {
+            background-color: #2e5f9b;
+            border: 1px solid #2e5f9b;
+            color: #FFFFFF; }
+    .dashboard-chatbot-widget > .panel > .panel-body .table {
+      margin: 0;
+      padding: 0;
+      border: 0; }
+      .dashboard-chatbot-widget > .panel > .panel-body .table thead {
+        background-color: #f9fafb; }
+        .dashboard-chatbot-widget > .panel > .panel-body .table thead tr th {
+          width: 20%;
+          border: 0;
+          font-weight: 400;
+          font-size: 15px;
+          color: #1c222d; }
+          .dashboard-chatbot-widget > .panel > .panel-body .table thead tr th:first-child {
+            width: 60%; }
+      .dashboard-chatbot-widget > .panel > .panel-body .table tbody {
+        min-height: 500px; }
+        .dashboard-chatbot-widget > .panel > .panel-body .table tbody tr td {
+          border-top: 1px solid rgba(65, 106, 166, 0.1);
+          font-size: 15px;
+          color: #7d879c; }
+          .dashboard-chatbot-widget > .panel > .panel-body .table tbody tr td span {
+            padding: 3px 10px;
+            border-radius: 3px;
+            font-size: 13px;
+            color: #FFFFFF; }
+            .dashboard-chatbot-widget > .panel > .panel-body .table tbody tr td span.span-text {
+              background-color: #fad3d1; }
+            .dashboard-chatbot-widget > .panel > .panel-body .table tbody tr td span.span-group {
+              background-color: #9cc2f4; }
+      .dashboard-chatbot-widget > .panel > .panel-body .table tfoot tr td {
+        padding: 0;
+        border-top: 1px solid rgba(65, 106, 166, 0.05); }
+        .dashboard-chatbot-widget > .panel > .panel-body .table tfoot tr td .pagination {
+          float: right; }
+
+/*# sourceMappingURL=widgets.css.map */

@@ -1,0 +1,109 @@
+/*******************************
+MIDRUB GLOBAL VARIABLES
+********************************/
+/*******************************
+MIDRUB ELEMENTS STYLES
+********************************/
+/*******************************
+DASHBOARD APP STYLES
+********************************/
+section.dashboard-page {
+  padding: 30px; }
+  section.dashboard-page .stats .col-xl-6,
+  section.dashboard-page .stats .col-xl-3 {
+    margin-bottom: 27px; }
+    section.dashboard-page .stats .col-xl-6 > div,
+    section.dashboard-page .stats .col-xl-3 > div {
+      min-height: 200px;
+      padding: 15px; }
+      section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-3,
+      section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-3 {
+        text-align: center;
+        padding: 15px 0 0; }
+        section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-3 i,
+        section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-3 i {
+          font-size: 2.5vw; }
+          section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-3 i.icon-user,
+          section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-3 i.icon-user {
+            color: #01a28b; }
+          section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-3 i.icon-people,
+          section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-3 i.icon-people {
+            color: #86a2d4; }
+          section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-3 i.icon-layers,
+          section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-3 i.icon-layers {
+            color: #2e5f9b; }
+          section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-3 i.icon-drawer,
+          section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-3 i.icon-drawer {
+            color: #c9cccf; }
+          @media only screen and (max-width: 767px) {
+            section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-3 i,
+            section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-3 i {
+              font-size: 5vw; } }
+      section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-9,
+      section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-9 {
+        padding: 10px 15px 0; }
+        section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-9 h3,
+        section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-9 h3 {
+          margin: 0;
+          padding: 0;
+          font-size: 17px;
+          text-align: right;
+          margin-top: 10px;
+          font-weight: 400;
+          color: #343a40;
+          font-family: "Nunito Sans", sans-serif; }
+        section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-9 p,
+        section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-9 p {
+          font-size: 14px;
+          text-align: right;
+          color: #c0cddc;
+          line-height: 35px; }
+          @media only screen and (max-width: 1598px) {
+            section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-9 p,
+            section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-9 p {
+              font-size: 12px;
+              line-height: 22px; } }
+      section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 hr,
+      section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 hr {
+        border-top: 1px solid #f0f0f0;
+        margin-top: 0; }
+      section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .stats-bottom,
+      section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .stats-bottom {
+        margin-top: 10px;
+        background-color: #fbfbfb;
+        height: 60px;
+        padding: 14px;
+        font-size: 14px;
+        color: #818a91; }
+        section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .stats-bottom a,
+        section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .stats-bottom a {
+          color: #1da1f2; }
+      section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .col-xl-9.col-sm-10,
+      section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .col-xl-9.col-sm-10 {
+        padding: 0 15px;
+        margin-bottom: 5px; }
+        @media only screen and (max-width: 1598px) {
+          section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .col-xl-9.col-sm-10,
+          section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .col-xl-9.col-sm-10 {
+            font-size: 86%; } }
+      section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .col-sm-2,
+      section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .col-sm-2 {
+        padding: 0 15px;
+        margin-bottom: 0; }
+        section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .col-sm-2 i,
+        section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .col-sm-2 i {
+          font-size: 16px; }
+      section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .progress,
+      section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .progress {
+        height: 5px; }
+        section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .progress .progress-bar,
+        section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .progress .progress-bar {
+          height: 5px; }
+          section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .progress .progress-bar.bg-success,
+          section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .progress .progress-bar.bg-success {
+            background-color: #14b8c8 !important; }
+          section.dashboard-page .stats .col-xl-6 > div > .row .col-xl-12 .progress .progress-bar.bg-danger,
+          section.dashboard-page .stats .col-xl-3 > div > .row .col-xl-12 .progress .progress-bar.bg-danger {
+            background-color: #ea6759 !important; }
+
+/*# sourceMappingURL=dashboard.css.map */
