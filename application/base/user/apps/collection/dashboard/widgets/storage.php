@@ -103,7 +103,7 @@ class Storage implements MidrubBaseUserAppsCollectionDashboardInterfaces\Widgets
                             . '<div class="col-xl-12 theme-box">'
                                 . '<div class="row">'
                                     . '<div class="col-xl-3 col-sm-3 col-3">'
-                                        . '<i class="icon-drawer"></i>'
+                                        . '<i class="fa fa-inbox"></i>'
                                     . '</div>'
                                     . '<div class="col-xl-9 col-sm-9 col-9">'
                                         . '<h3>' . $this->CI->lang->line('storage') . '</h3>'
