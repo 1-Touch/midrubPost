@@ -1,5 +1,8 @@
 <section class="posts-page" data-up="<?php echo (get_option('upload_limit')) ? get_option('upload_limit') : '6'; ?>"
     data-mobile-installed="<?php echo (get_user_option('mobile_installed')) ? '1' : '0'; ?>">
+    <div class="container-fluid mt-3" id="text-custom">
+        <h1 class="header-t"><?php echo $this->lang->line('posts'); ?></h1>
+    </div>
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <?php

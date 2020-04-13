@@ -141,7 +141,7 @@ add_hook(
     'the_footer',
     function () {
 
-        echo "<script src=\"" . base_url('assets/base/user/themes/blue/js/main.js') . "\"></script>\n";
+        echo "<script src=\"" . base_url('assets/base/user/themes/test/js/main.js') . "\"></script>\n";
 
     }
 
@@ -160,7 +160,7 @@ add_hook(
         $CI = get_instance();
         
         // Load Notifications Model
-        $this->CI->load->ext_model( MIDRUB_BASE_USER . 'themes/blue/models/', 'Blue_notifications_model', 'blue_notifications_model' );
+        $this->CI->load->ext_model( MIDRUB_BASE_USER . 'themes/test/models/', 'Blue_notifications_model', 'blue_notifications_model' );
 
         // Get notifications
         $notifications = $CI->blue_notifications_model->get_notifications( $CI->user_id, 0, 10 );
@@ -256,7 +256,7 @@ add_hook(
         $CI = get_instance();
         
         // Load Tickets Model
-        $this->CI->load->ext_model( MIDRUB_BASE_USER . 'themes/blue/models/', 'Blue_tickets_model', 'blue_tickets_model' );
+        $this->CI->load->ext_model( MIDRUB_BASE_USER . 'themes/test/models/', 'Blue_tickets_model', 'blue_tickets_model' );
 
         // Get all tickets
         $all_tickets = $CI->blue_tickets_model->get_all_tickets_for( $CI->user_id );

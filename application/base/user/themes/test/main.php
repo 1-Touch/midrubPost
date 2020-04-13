@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 
     <!-- Midrub CSS -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/base/user/themes/blue/styles/css/style.css?ver=' . MD_VER); ?>" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/base/user/themes/test/styles/css/style.css?ver=' . MD_VER); ?>" media="all" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/base/user/themes/test/styles/css/custom.css?ver=' . MD_VER); ?>" media="all" />
 
     <!-- Styles -->
     <?php get_the_css_urls(); ?>

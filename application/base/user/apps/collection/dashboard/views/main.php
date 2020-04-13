@@ -1,4 +1,7 @@
 <section class="section dashboard-page">
+    <div class="container-fluid mt-3" id="text-custom">
+        <h1 class="header-t"><?php echo $this->lang->line('dashboard'); ?></h1>
+    </div>
     <div class="container-fluid">
         <?php if ( $expired ) { ?>
         <div class="row">
